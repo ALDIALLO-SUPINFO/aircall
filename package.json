@@ -1,0 +1,17 @@
+{
+  "name": "aircall",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "cypress:open": "cypress open",
+    
+    "test": "mocha --spec ./tests/*.js --reporter mochawesome --parallel"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^8.3.1",
+    "mochawesome": "^6.2.2"
+  }
+}
